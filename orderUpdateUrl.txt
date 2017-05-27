@@ -1,0 +1,79 @@
+Request URL : http://10.10.79.35:8080/oms-ext-web/webresources/awbStatusResponseUpdate
+
+METHOD : POST
+
+For BD use this xml .
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AWBStatusResponse> 
+  <AWBResponseInfo>
+  <AWBNumber>69500653445</AWBNumber>
+  <ShipmentStatus>Shipment Delivered</ShipmentStatus>
+  <ResponseCode>DL</ResponseCode>
+  <CourierService>BD</CourierService> 
+    <StatusRecords>
+    <Date>03-02-2017</Date>
+    <Time>10:03:16</Time>
+    <Location>HYD</Location>
+    <ScanCode>000</ScanCode>
+    <ScanType>DL</ScanType>
+    <ScanGrpType>T</ScanGrpType>
+  </StatusRecords>
+  </AWBResponseInfo>
+  
+  
+  For DELHIVERY use this xml 
+  
+</AWBStatusResponse>
+<?xml version="1.0" encoding="UTF-8"?>
+<AWBStatusResponse>
+ <AWBResponseInfo>
+  <AWBNumber>8880003</AWBNumber>
+  <ShipmentStatus>Delivered</ShipmentStatus>
+   <ResponseCode>DL</ResponseCode>
+  <CourierService>DELHIVERY</CourierService>
+  <StatusRecords>
+   <Date>08-03-2017</Date>
+   <Time>12:55:02</Time>
+   <Location>Bangalore</Location>
+   <StatusDescription>Delivered to consignee</StatusDescription>
+  </StatusRecords>
+ </AWBResponseInfo>
+</AWBStatusResponse>
+
+
+For EK use this xml 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AWBStatusResponse>
+ <AWBResponseInfo>
+  <AWBNumber>77005225</AWBNumber>
+  <ShipmentStatus>Delivered</ShipmentStatus>
+  <CourierService>EK</CourierService>
+  <StatusRecords>
+   <Date>10-01-2017</Date>
+   <Time>11:30:02</Time>
+   <Location>Bangalore</Location>
+   <StatusDescription>Delivered</StatusDescription>
+  </StatusRecords>
+ </AWBResponseInfo>
+  </AWBStatusResponse>
+
+  
+  For GT use this xml 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<AWBStatusResponse>
+ <AWBResponseInfo>
+  <AWBNumber>900300998</AWBNumber>
+  <ShipmentStatus>Delivered</ShipmentStatus>
+  <CourierService>GT</CourierService>
+  <StatusRecords>
+   <Date>09-02-2017</Date>
+   <Time>08:15:02</Time>
+   <Location>Bangalore</Location>
+   <StatusDescription>DELIVERED</StatusDescription>
+  </StatusRecords>
+ </AWBResponseInfo>
+  </AWBStatusResponse>
