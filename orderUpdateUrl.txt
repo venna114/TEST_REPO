@@ -3,6 +3,7 @@ Request URL : http://10.10.79.35:8080/oms-ext-web/webresources/awbStatusResponse
 METHOD : POST
 
 
+
 For BD use this xml ....prasad Reddy 
 Hello
 
